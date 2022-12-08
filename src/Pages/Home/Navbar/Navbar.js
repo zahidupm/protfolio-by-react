@@ -8,20 +8,20 @@ const Navbar = () => {
         <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
         <Link
-          href="/"
+          to="/"
           aria-label="Zahid Hasan"
           title="Zahid Hasan"
           className="inline-flex items-center"
         >
           <img src={Logo} className="w-[46px] h-[46px]" alt="" />
           <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-            {/* Company */}
+            Zahid Hasan
           </span>
         </Link>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>
             <Link
-              href="/"
+              to="/home"
               aria-label="Home"
               title="Home"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="/"
+              to="/"
               aria-label="Our product"
               title="Our product"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -41,7 +41,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="/"
+              to="/"
               aria-label="Product pricing"
               title="Product pricing"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -51,7 +51,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="/"
+              to="/"
               aria-label="About us"
               title="About us"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="/"
+              to="/"
               className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
@@ -70,7 +70,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="lg:hidden">
+        <div className="lg:hidden z-10">
           <button
             aria-label="Open Menu"
             title="Open Menu"
@@ -98,28 +98,14 @@ const Navbar = () => {
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <Link
-                      href="/"
-                      aria-label="Company"
-                      title="Company"
+                      to="/"
+                      aria-label="Zahid Hasan"
+                      title="Zahid Hasan"
                       className="inline-flex items-center"
                     >
-                      <svg
-                        className="w-8 text-deep-purple-accent-400"
-                        viewBox="0 0 24 24"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeMiterlimit="10"
-                        stroke="currentColor"
-                        fill="none"
-                      >
-                        <rect x="3" y="1" width="7" height="12" />
-                        <rect x="3" y="17" width="7" height="6" />
-                        <rect x="14" y="1" width="7" height="6" />
-                        <rect x="14" y="11" width="7" height="12" />
-                      </svg>
+                      <img src={Logo} alt="" />
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
+                        Zahid Hasan
                       </span>
                     </Link>
                   </div>
@@ -143,17 +129,17 @@ const Navbar = () => {
                   <ul className="space-y-4">
                     <li>
                       <Link
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
+                        to="/home"
+                        aria-label="Home"
+                        title="Home"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Product
+                        Home
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        to="/"
                         aria-label="Our product"
                         title="Our product"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -163,7 +149,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        to="/"
                         aria-label="Product pricing"
                         title="Product pricing"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -173,7 +159,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        to="/"
                         aria-label="About us"
                         title="About us"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -183,7 +169,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        to="/"
                         className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
