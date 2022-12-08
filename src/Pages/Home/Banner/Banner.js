@@ -3,7 +3,7 @@ import BannerImg from '../../../assets/img/banner.jpg';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='bg-gray-100'>
              <div className="relative px-4 pt-6 mx-auto lg:py-24 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
       <div className="max-w-xl mx-auto lg:max-w-screen-xl">
         <div className="mb-16 lg:max-w-lg lg:mb-0">
@@ -18,20 +18,10 @@ const Banner = () => {
               I am a professional Web Developer.
             </p>
           </div>
-          <div className="flex items-center">
-            <a
-              href="/"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-            >
-              Get started
-            </a>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
+          <div className=" mt-12">
+            <button className='bg-blue-400 hover:bg-blue-600 px-6 py-2 text-md text-white font-semibold rounded-sm'>
+              Download Resume
+            </button>
           </div>
         </div>
       </div>
