@@ -41,23 +41,23 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/"
-              aria-label="Product pricing"
-              title="Product pricing"
+              to="/projects"
+              aria-label="Projects"
+              title="Projects"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Pricing
+              Projects
             </Link>
           </li>
           <li>
-            <Link
-              to="/"
-              aria-label="About us"
-              title="About us"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              About us
-            </Link>
+          <Link
+            to="/contact"
+            aria-label="Contact"
+            title="Contact"
+            className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+          >
+            Contact
+          </Link>
           </li>
           <li>
             <Link
@@ -148,23 +148,23 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        to="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Pricing
-                      </Link>
+                    <Link
+                      to="/projects"
+                      aria-label="Projects"
+                      title="Projects"
+                      className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                    >
+                      Projects
+                    </Link>
                     </li>
                     <li>
                       <Link
-                        to="/"
-                        aria-label="About us"
-                        title="About us"
+                        to="/contact"
+                        aria-label="Contact"
+                        title="Contact"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        About us
+                        Contact
                       </Link>
                     </li>
                     <li>
