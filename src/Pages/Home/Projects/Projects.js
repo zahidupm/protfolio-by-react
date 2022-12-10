@@ -1,5 +1,7 @@
 import React from 'react';
 import Bookis from '../../../assets/img/bookis.png';
+import Journalist from '../../../assets/img/journalist.png';
+import Learning from '../../../assets/img/learning.png';
 import useTitle from '../../../hooks/useTitle';
 
 const Projects = () => {
@@ -323,7 +325,7 @@ const Projects = () => {
                         <div className="relative">
                         <img
                             className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
-                            src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                            src={Journalist}
                             alt=""
                         />
                         </div>
@@ -363,7 +365,7 @@ const Projects = () => {
                             <div className="w-px h-full bg-gray-300" />
                             </div>
                             <div className="pt-1 pb-8">
-                            <p className="mb-2 text-lg font-bold">Step 1</p>
+                            <p className="mb-2 text-lg font-bold">Dream Learning | https://learning-platform-36621.web.app/</p>
                             <p className="text-gray-700">
                                 All recipes are written using certain conventions, which define
                                 the characteristics of common ingredients. The rules vary from
@@ -479,7 +481,7 @@ const Projects = () => {
                         <div className="relative">
                         <img
                             className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
-                            src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                            src={Learning}
                             alt=""
                         />
                         </div>
